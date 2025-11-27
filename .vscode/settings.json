@@ -1,0 +1,37 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "local-mysql",
+            "group": "MySQL Connections",
+            "database": "task_management",
+            "username": "root",
+            "password": "12345678",
+            "connectionTimeout": 10000
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "MySql local",
+            "database": "task_management",
+            "username": "root",
+            "password": "12345678",
+            "connectionTimeout": 30
+        }
+    ]
+}
