@@ -356,29 +356,29 @@ Authorization: Bearer invalid_token_here
 ### Before Authentication
 
 #### 1. API Root Endpoint
-![API Root](./screenshots/01-api-root.png)
+![API Root](./01-api-root.png)
 *GET request to `/` showing API information and available endpoints*
 
 #### 2. Login Request
-![Login Request](./screenshots/02-login-request.png)
+![Login Request](./02-login-request.png)
 *POST request to `/api/auth/login` with credentials*
 
 #### 3. Login Success Response
-![Login Response](./screenshots/03-login-response.png)
+![Login Response](./03-login-response.png)
 *Successful login response with JWT token*
 
 ### After Authentication
 
 #### 4. Get Employees with Auth Token
-![Get Employees](./screenshots/04-get-employees-auth.png)
+![Get Employees](./04-get-employees-auth.png)
 *GET request to `/api/employees` with Bearer token*
 
 #### 5. Create Task with Auth Token
-![Create Task](./screenshots/05-create-task-auth.png)
+![Create Task](./05-create-task-auth.png)
 *POST request to `/api/tasks` with Bearer token*
 
 #### 6. Request Without Token (401 Error)
-![401 Error](./screenshots/06-no-token-error.png)
+![401 Error](./06-no-token-error.png)
 *GET request without Authorization header showing 401 error*
 
 ## 🚨 Error Handling
@@ -467,3 +467,4 @@ If you have any questions or need help, please:
 **⭐ If you found this project helpful, please give it a star!**
 
 Made with ❤️ by [Rajdeep Shaw]
+
